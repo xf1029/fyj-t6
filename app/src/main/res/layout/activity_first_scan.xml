@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#734f98">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:text="@string/tip_welcome"/>
+
+        <TextView
+            android:id="@+id/tv_menu"
+            android:layout_width="40dp"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="@string/tip_device_list_menu"
+            android:textColor="#FFFFFF"
+            android:background="@null"
+            android:textSize="12sp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@mipmap/about"
+            />
+
+        <ScrollView
+            android:id="@+id/sv_introduce"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:background="#FFFFFF"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp">
+
+            <me.codeboy.android.aligntextview.AlignTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:lineSpacingExtra="10dp"
+                android:text="@string/device_introduce"
+                />
+        </ScrollView>
+
+
+
+        <ScrollView
+            android:id="@+id/sv_device"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:background="#F8F8F8"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp">
+
+            <LinearLayout
+                android:id="@+id/ll_device"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:id="@+id/connect_Scan"
+                android:text="@string/btn_scan"
+                android:textColor="#734f98"
+                />
+
+            <View
+                android:layout_width="2px"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_height="match_parent"
+                android:background="#734f98"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/connect_Text"
+                android:textSize="16dp"
+                android:text="@string/btn_mannual"
+                android:textColor="#734f98"
+
+                />
+
+        </LinearLayout>
+        <!--<Button-->
+            <!--android:id="@+id/bt_scan"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:background="#734f98"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:text="@string/tip_for_new_scan_connected2"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:textSize="14sp"-->
+            <!--android:visibility="visible"/>-->
+
+    </LinearLayout>
+
+
+</LinearLayout>

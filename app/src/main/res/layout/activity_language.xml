@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#734f98">
+
+        <ImageView
+            android:id="@+id/iv_back1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="0dp"
+            android:padding="12dp"
+            android:src="@mipmap/ic_arrow_back_white"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:text="@string/title_close_device_hotspot"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rl_set_dev_lang_chinese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:onClick="onClick"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Simplified Chinese(简体中文)"
+                android:layout_margin="18dp"
+                android:textSize="20dp"
+                />
+            <ImageView
+                android:id="@+id/iv_set_dev_lang_chinese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/gray"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:onClick="onClick"
+                />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ececec"
+            />
+        <RelativeLayout
+            android:id="@+id/rl_set_dev_lang_english"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:onClick="onClick"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English(英文)"
+                android:layout_margin="18dp"
+                android:textSize="20dp"
+                />
+            <ImageView
+                android:id="@+id/iv_set_dev_lang_english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/gray"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:onClick="onClick"
+                />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ececec"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ececec"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="70dp"
+
+
+        >
+
+        <Button
+            android:id="@+id/but_set_dev_lang_ok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#734f98"
+            android:onClick="onClick"
+
+            android:text="@string/button_commit"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

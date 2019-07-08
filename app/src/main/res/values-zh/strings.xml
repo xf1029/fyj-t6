@@ -1,0 +1,560 @@
+<!--<resources>-->
+    <!--<string name="app_name">GTW</string>-->
+    <!--<string name="tab_home">Main page</string>-->
+    <!--<string name="tab_mall">Store</string>-->
+    <!--<string name="tab_setting">Setting</string>-->
+    <!--<string name="title_activity_home">@string/app_name</string>-->
+    <!--<string name="select_wifi">Select Network</string>-->
+    <!--<string name="about">TGT limited\nCopyright ©2014-2017</string>-->
+
+    <!--<string name="tip_welcome">Welcome to GTW</string>-->
+    <!--<string name="btn_scan">Scan QR code to add device</string>-->
+    <!--<string name="btn_mannual">Add device manually</string>-->
+    <!--<string name="tip_connect_unbind">Connect/Unbind</string>-->
+    <!--<string name="tip_device_operation_title">Device operate setting</string>-->
+
+
+    <!--<string name="tip_title">Notification</string>-->
+    <!--<string name="tip_input_password">Please enter password</string>-->
+    <!--<string name="tip_purchase_flow_package">Purchase Data package</string>-->
+    <!--<string name="tip_input_old_password">Old Password：</string>-->
+    <!--<string name="tip_input_new_password">New Password：</string>-->
+    <!--<string name="tip_input_old_password_hint">Enter Old Password</string>-->
+    <!--<string name="tip_input_new_password_hint">Enter New Password</string>-->
+    <!--<string name="tip_close_device_hotspot">Are you sure to switch off hotspot？</string>-->
+    <!--<string name="tip_apn">Apn</string>-->
+
+    <!--<string name="tip_apn_name">Name</string>-->
+    <!--<string name="tip_apn_mcc">MCC</string>-->
+    <!--<string name="tip_apn_mnc">MNC</string>-->
+    <!--<string name="tip_apn_type">Type</string>-->
+    <!--<string name="tip_apn_user">User Name</string>-->
+    <!--<string name="tip_apn_password">Password</string>-->
+    <!--<string name="tip_apn_port">Port</string>-->
+    <!--<string name="tip_apn_proxy">Proxy</string>-->
+    <!--<string name="tip_apn_mmsc">MMSC</string>-->
+    <!--<string name="tip_not_connected">Cannot connect to device</string>-->
+
+    <!--<string name="tip_not_connecting">No connection</string>-->
+    <!--<string name="tip_for_open_scan_connected">Cannot connect to device, please scan device QR code </string>-->
+    <!--<string name="tip_for_new_scan_connected">Please scan device QR code to connect device</string>-->
+    <!--<string name="tip_for_new_scan_connected2">Additional device, please scan QR code of device</string>-->
+    <!--<string name="tip_scan">Place the QR code in the frame to scan </string>-->
+    <!--<string name="tip_password_empty">Password cannot be empty</string>-->
+    <!--<string name="tip_password_at_least_8">At least eight digits for the password</string>-->
+    <!--<string name="tip_input">Enger</string>-->
+    <!--<string name="tip_password">Password</string>-->
+    <!--<string name="tip_operation_success">Successful</string>-->
+    <!--<string name="tip_operation_failed">Failed</string>-->
+    <!--<string name="tip_match_bluetooth">After device matched bluetooth, then connect the device</string>-->
+    <!--<string name="tip_can_not_internet">Network not available, please make sure your cellphone is connected to internet</string>-->
+    <!--<string name="tip_bluetooth_open">Cellphone bluetooth is on</string>-->
+    <!--<string name="tip_enter">Enter APP</string>-->
+    <!--<string name="tip_apn_plmn">PLMN</string>-->
+    <!--<string name="cannot_find_device">Can not find device, please connect the network of the device.(if can not find, please open the wifi)</string>-->
+
+    <!--<string name="tip_scaning">Scanning...</string>-->
+    <!--<string name="tip_disconnected">Disconnected</string>-->
+    <!--<string name="tip_get_ip_address">Receiving IP...</string>-->
+    <!--<string name="tip_authenticating">Authenticating...</string>-->
+    <!--<string name="tip_get_flow_package">Purchase Data package</string>-->
+    <!--<string name="tip_connected_to">Connected</string>-->
+    <!--<string name="tip_connecting">Connecting device...</string>-->
+    <!--<string name="tip_connect">Connecting</string>-->
+    <!--<string name="tip_connect2">Connect</string>-->
+    <!--<string name="tip_in_using">In Use</string>-->
+    <!--<string name="tip_payment">Payment</string>-->
+    <!--<string name="tip_device_ssid">Device SSID:</string>-->
+    <!--<string name="tip_can_not_find_device_mac_address">Cannot receive device bluetooth address</string>-->
+    <!--//Wechat not installed未安装微信-->
+    <!--<string name="tip_unistall_wetchat">Wechat not installed</string>-->
+    <!--<string name="tip_current_version_info">Version:</string>-->
+    <!--<string name="tip_newest_version_check">Checking new version...</string>-->
+    <!--<string name="tip_no_new_version">Version up-to-date</string>-->
+    <!--<string name="tip_download_error">Download Failed!</string>-->
+    <!--<string name="tip_download_apk">Downloading...</string>-->
+    <!--<string name="tip_select_file">Please select file</string>-->
+    <!--<string name="tip_can_not_find_file">Cannot find file to upgrade </string>-->
+    <!--<string name="tip_can_not_get_device_info">Cannot receive device info</string>-->
+    <!--<string name="tip_pay_success">Payment successful</string>-->
+    <!--<string name="tip_pay_failed">Payment failed</string>-->
+
+    <!--<string name="tip_for_active_device">Device not activated, would you like to activate now?</string>-->
+    <!--<string name="tip_for_active_device_error">Cannot activate device</string>-->
+    <!--<string name="tip_can_not_find_the_device">Cannot detect device info, please check if QR code is correct.</string>-->
+
+    <!--<string name="tip_translator_package_introduce">The data usage of translation is the data transfer in the active area for the device. </string>-->
+
+    <!--<string name="tip_wxpay_success">Payment successful</string>-->
+    <!--<string name="tip_wxpay_cancel">Payment cancelled</string>-->
+    <!--<string name="tip_wxpay_denied">Payment unsuccessful</string>-->
+    <!--<string name="tip_wxpay_failed">Payment failed</string>-->
+    <!--<string name="tip_wxpay_unsupport">Payment un-support</string>-->
+
+    <!--<string name="tip_start_date">Starting date：</string>-->
+    <!--<string name="tip_select_start_date">Select date to start</string>-->
+
+    <!--<string name="tip_device_info_menu">Unbind</string>-->
+    <!--<string name="tip_device_list_menu">Edit</string>-->
+    <!--<string name="tip_device_list_menu2">Back</string>-->
+    <!--<string name="tip_unbind_the_device">Are you sure to unbind the device?</string>-->
+
+    <!--<string name="commit_button">Yes</string>-->
+    <!--<string name="cancel_button">No</string>-->
+    <!--<string name="default_button"> default</string>-->
+    <!--<string name="connect_wifi_button">Connect device wifi</string>-->
+    <!--<string name="toast_back_exit">Press again to go back</string>-->
+
+    <!--<string name="button_purchase">Purchase</string>-->
+    <!--<string name="button_connect">Connect</string>-->
+    <!--<string name="button_commit">OK</string>-->
+    <!--<string name="button_install">Install</string>-->
+    <!--<string name="button_cancel">Cancel</string>-->
+    <!--<string name="button_no_update">Not to upgrade</string>-->
+    <!--<string name="button_forget">Clear input history</string>-->
+    <!--<string name="button_update">Check update</string>-->
+    <!--<string name="button_disconnect">Disconnect</string>-->
+    <!--<string name="button_close">Close</string>-->
+
+    <!--<string name="device_ssid">Device SSID：</string>-->
+    <!--<string name="device_wifi_password">Wifi Password：</string>-->
+    <!--<string name="device_translate_language">Translate language：</string>-->
+    <!--<string name="device_state_of_charge">Power：</string>-->
+    <!--<string name="device_connect_count">Number of device connected：</string>-->
+    <!--<string name="device_signal_strength">Reception：</string>-->
+    <!--<string name="device_app_version">App version：</string>-->
+    <!--<string name="device_flow_package">Data transfer message</string>-->
+    <!--<string name="device_flow_package_name">Data package</string>-->
+    <!--<string name="device_daily_flow">Daily usage available</string>-->
+    <!--<string name="device_today_used_flow">Data usage of today</string>-->
+    <!--<string name="device_3_hours_used_flow">Data transfer in three hours</string>-->
+    <!--<string name="device_flow_package_starttime">Starting date of the package</string>-->
+    <!--<string name="device_flow_package_endtime">Ending date of the package</string>-->
+    <!--<string name="device_flow_left">Data usage remain</string>-->
+    <!--<string name="device_flow_total_count">Total data transfer</string>-->
+    <!--<string name="device_flow_countries">Countries used</string>-->
+
+    <!--<string name="title_flow_mall">Data usage store</string>-->
+    <!--<string name="title_device_setting">Setting</string>-->
+    <!--<string name="title_modify_hotspot_password">Password</string>-->
+    <!--<string name="title_set_device_lang">Set device language</string>-->
+    <!--<string name="title_close_device_hotspot">Language</string>-->
+    <!--<string name="title_set_apn">Set APN</string>-->
+    <!--<string name="title_set_blacklist">Set hotspot blacklist</string>-->
+    <!--<string name="title_save_flow">Data Saver Mode</string>-->
+    <!--<string name="title_set_production">Reset</string>-->
+    <!--<string name="title_product">Products</string>-->
+    <!--<string name="title_instruction">Instruction</string>-->
+
+    <!--//Switch-->
+    <!--<string name="title_saveflow_open">On</string>-->
+    <!--<string name="title_saveflow_close">Off</string>-->
+
+    <!--<string name="title_set_defaultPassWord">reset device to default hotspot password</string>-->
+    <!--<string name="title_restore_setting">Reset All Settings</string>-->
+    <!--<string name="tile_restore_tip">If you click ‘OK’, data saver mode will be switch-on and device password will revert to the original one.</string>-->
+    <!--<string name="tile_restore_pwtip">Would you like to restore device WiFi password back to default?</string>-->
+
+    <!--<string name="title_connect_wifi"> Connect Wifi</string>-->
+    <!--<string name="title_other_wifi">Other WiFi</string>-->
+    <!--<string name="title_set_translate_langugage">Set translate language</string>-->
+    <!--<string name="title_set_tip_langugage">Set device language</string>-->
+    <!--<string name="title_flow_orders">Purchase History</string>-->
+    <!--<string name="title_detection_device">Detect device</string>-->
+    <!--<string name="title_basic_setting">Basic Setting</string>-->
+    <!--<string name="title_advanced_setting">Advance Setting</string>-->
+    <!--<string name="title_device_self_detection">Auto Setting</string>-->
+    <!--<string name="title_software_version">Software version Check</string>-->
+    <!--<string name="title_device_connect_wifi">Connect WiFi</string>-->
+    <!--<string name="title_select_wifi">Select WiFi</string>-->
+    <!--<string name="title_saved_wifi">WiFi History Saved</string>-->
+    <!--<string name="title_otherwifi">Other WiFi</string>-->
+    <!--<string name="title_chinese">Chinese</string>-->
+    <!--<string name="title_english">English</string>-->
+    <!--<string name="title_japanese">Japanese</string>-->
+    <!--<string name="title_set_lange">Language Setting</string>-->
+
+
+    <!--<string name="title_manual_wifi">Manual enter ssid to connect</string>-->
+    <!--<string name="title_tip_nameempty">Name of hotspot cannot be empty</string>-->
+    <!--<string name="title_tip_passwordempty">Password cannot be empty</string>-->
+    <!--<string name="title_manual_wifiname">Enter hotspot name</string>-->
+    <!--<string name="title_manual_wifipassword">Enter hotspot password</string>-->
+    <!--<string name="title_manual_join">ADD</string>-->
+
+    <!--<string name="title_open_tip">Save Data Usage Mode may reduce data transfer while device is active as hotspot and prevent other APP(s) from transferring.  You may switch off after restarting the device. </string>-->
+    <!--<string name="title_current_connected_wifi">The current Wifi connected</string>-->
+    <!--<string name="title_set_translate_language">Set translate language</string>-->
+    <!--<string name="title_about">About us</string>-->
+    <!--<string name="title_device_orders">Device package purchased</string>-->
+    <!--<string name="title_scan">Scan</string>-->
+    <!--<string name="title_trasn_order">Translate order</string>-->
+
+    <!--<string name="system_webview_error">Synchronization fails, please try again later.</string>-->
+
+    <!--<string name="error_set_device">Device setting-->
+<!--error</string>-->
+    <!--<string name="error_check_old_password">Old password authentication fails</string>-->
+    <!--<string name="error_set_new_password">At least eight characters, including numbers and letters</string>-->
+    <!--<string name="error_set_new_password2">At least eight characters for password</string>-->
+    <!--<string name="error_close_device_hotspot">Fail to switch off hotspot</string>-->
+    <!--<string name="error_set_blacklist">Blacklist cannot be blank</string>-->
+    <!--<string name="error_apn_name">apn name must fill in</string>-->
+    <!--<string name="error_apn">apn must fill in</string>-->
+    <!--<string name="error_apn_mcc">mcc must fill in</string>-->
+    <!--<string name="error_apn_mnc">mnc must fill in</string>-->
+    <!--<string name="error_apn_numermic">NUMERMIC must fill in</string>-->
+    <!--<string name="error_open_bluetooth">Fail to switch on bluetooth</string>-->
+    <!--<string name="error_cannot_connect_device_from_bluetooth">cannot connect device via bluetooth. \n You can scan the QR-code or restart the device.</string>-->
+    <!--<string name="error_cannot_connect_device_from_bluetooth2">Cannot connect device</string>-->
+    <!--<string name="error_mobile_phone_not_support_bluetooth">Your mobile phone does not support bluetooth function</string>-->
+    <!--<string name="error_no_device_connect">Disconnected with the device,please connect device WiFi and connect device.</string>-->
+    <!--<string name="error_version_low"> Current version is not up-to-date, please upgrade the version</string>-->
+    <!--<string name="error_network_is_not_available">Network is not available, please make sure your device is connected to the internet.</string>-->
+
+    <!--<string name="warning_close_device_hotspot">Would you like to turn off hotspot function</string>-->
+    <!--<string name="warning_input_start_date">Please input starting date</string>-->
+    <!--<string name="tip_connect_wifi">Please connect device WiFi</string>-->
+
+
+    <!--<string name= "title_jp">Japanese</string>-->
+    <!--<string name= "title_fr">French</string>-->
+    <!--<string name= "title_ge">German</string>-->
+    <!--<string name= "title_sp">Spanish</string>-->
+    <!--<string name= "title_ko">Korean</string>-->
+
+    <!--<string name="status_wifi_connected">Connected</string>-->
+    <!--<string name="status_wifi_saved">Saved</string>-->
+    <!--<string name="status_wifi_searched">Search nearby </string>-->
+    <!--<string name="title_select_time">Set date</string>-->
+    <!--<string name="title_select">Set</string>-->
+    <!--<string name="title_year">year</string>-->
+    <!--<string name="title_month">month</string>-->
+    <!--<string name="title_day">day</string>-->
+    <!--<string name="title_credit_card">Credit Card</string>-->
+    <!--<string name="title_card_category">(Accept Visa, Mastercard and American Express payments)</string>-->
+    <!--<string name="products_introduce">GT1, GTW’s the flagship product, is a portable smart device for cross-border internet usage, based on a “revolutionary” high technology called Cloud SIM. No SIM card needs to be inserted when the GT1 user lands in another country. Mobile phone, computer and other devices can easily connect to GT1 to have access to the Internet. Users can manage GT1 and purchase global data package or regional data package through GTW’s App.</string>-->
+
+    <!--<string name="device_introduce">HK GTWireless Limited (GTW) is a high-tech company registered in Hong Kong, specializing in could network technology and committing ourselves to providing better method and environment for cross-border business travellers and tourists to get on the Internet with lower cost. Currently, GTW has established cooperative relationship with different well-known telecom carriers in 120 countries and regions around the world to provide worldwide users with roaming-free global data.-->
+
+
+<!--</string>-->
+    <!--<array name="translate_language">-->
+        <!--<item>Chinese&ndash;&gt;English</item>-->
+        <!--<item>English&ndash;&gt;Chinese</item>-->
+        <!--<item>Chinese&ndash;&gt;Japanese</item>-->
+        <!--<item>Japanese&ndash;&gt;Chinese</item>-->
+    <!--</array>-->
+
+    <!--<array name="tip_language">-->
+        <!--<item>中文(简体)</item>-->
+        <!--<item>English</item>-->
+        <!--<item>Japanese</item>-->
+    <!--</array>-->
+
+    <!--&lt;!&ndash; TODO: Remove or change this placeholder text &ndash;&gt;-->
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <!--<string name="title_activity_card">CardActivity</string>-->
+
+<!--</resources>-->
+
+    <resources>
+    <string name="app_name">GTW</string>
+    <string name="tab_home">首页</string>
+    <string name="tab_mall">商城</string>
+    <string name="tab_setting">设置</string>
+
+    <string name="title_activity_home">@string/app_name</string>
+    <string name="select_wifi">选取网络</string>
+    <string name="about">深圳市途鸽信息有限公司\nCopyright ©2014-2018</string>
+
+    <string name="tip_welcome">欢迎使用GTW</string>
+    <string name="btn_mannual">手动输入设备号</string>
+    <string name="btn_scan">扫描设备二维码</string>
+    <string name="tip_title">提示</string>
+    <string name="tip_input_password">请输入密码</string>
+    <string name="tip_purchase_flow_package">购买流量</string>
+    <string name="tip_input_old_password">旧密码：</string>
+    <string name="tip_input_new_password">新密码：</string>
+    <string name="tip_input_old_password_hint">输入旧密码</string>
+    <string name="tip_input_new_password_hint">输入新密码</string>
+    <string name="tip_close_device_hotspot">你确认要关闭设备的热点吗？</string>
+    <string name="tip_apn">Apn</string>
+    <string name="tip_apn_name">名称</string>
+    <string name="tip_apn_mcc">MCC</string>
+    <string name="tip_apn_mnc">MNC</string>
+    <string name="tip_apn_type">类型</string>
+    <string name="tip_apn_user">用户名</string>
+    <string name="tip_apn_password">密码</string>
+    <string name="tip_apn_port">端口</string>
+    <string name="tip_apn_proxy">代理</string>
+    <string name="tip_apn_mmsc">MMSC</string>
+    <string name="tip_not_connected">无法连接到设备</string>
+    <string name="tip_not_connecting">无法连接</string>
+    <string name="tip_for_open_scan_connected">无法连接设备，请扫描设备的二维码。</string>
+    <string name="tip_for_new_scan_connected">请扫描设备的二维码连接设备。</string>
+    <string name="tip_for_new_scan_connected2">添加设备，请扫描设备的二维码</string>
+    <string name="tip_scan">将二维码图片对准扫描框即可自动扫描</string>
+    <string name="tip_password_empty">密码不能为空</string>
+    <string name="tip_password_at_least_8">密码至少8位</string>
+    <string name="tip_input">输入</string>
+    <string name="tip_password">密码</string>
+    <string name="tip_operation_success">操作成功</string>
+    <string name="tip_operation_failed">操作失败</string>
+    <string name="tip_match_bluetooth">等待蓝牙配对，完成后再连接设备</string>
+    <string name="tip_can_not_internet">无法访问Internet，请确保您的手机可以访问网络</string>
+    <string name="tip_bluetooth_open">手机蓝牙已打开</string>
+    <string name="tip_enter">进入APP</string>
+
+    <string name="tip_scaning">正在扫描...</string>
+    <string name="tip_disconnected">已断开</string>
+    <string name="tip_get_ip_address">正在获取ip...</string>
+    <string name="tip_authenticating">正在进行身份验证...</string>
+    <string name="tip_get_flow_package">购买流量</string>
+    <string name="tip_connected_to">已连接</string>
+    <string name="tip_connecting">连接设备中...</string>
+    <string name="tip_connect">正在连接</string>
+    <string name="tip_connect2">连接</string>
+    <string name="tip_payment">支付</string>
+    <string name="tip_device_ssid">设备SSID:</string>
+    <string name="tip_in_using">使用中</string>
+    <string name="tip_input_device_num">请输入设备号</string>
+
+    <string name="tip_can_not_find_device_mac_address">无法获得设备的蓝牙地址</string>
+    //未安装微信
+    <string name="tip_unistall_wetchat">您未安装微信</string>
+    <string name="tip_current_version_info">当前版本:</string>
+    <string name="tip_newest_version_check">检查新版本...</string>
+    <string name="tip_no_new_version">已是最新版本</string>
+    <string name="tip_download_error">下载失败!</string>
+    <string name="tip_download_apk">下载中...</string>
+    <string name="tip_select_file">请选择文件</string>
+    <string name="tip_can_not_find_file">无法找到升级文件</string>
+    <string name="tip_can_not_get_device_info">无法获得设备信息</string>
+    <string name="tip_pay_success">支付成功</string>
+    <string name="tip_pay_failed">支付失败</string>
+
+    <string name ="tip_active_header">激活</string>
+    <string name ="tip_active_not">暂不激活</string>
+    <string name ="tip_active_now">确认激活</string>
+    <string name="tip_for_active_device">设备，即日起，即可获得2G全球流量，有效期90天。是否激活设备？</string>
+    <string name="tip_for_active_device_error">无法激活该设备</string>
+    <string name="tip_can_not_find_the_device">无法检测到设备信息，请重试。</string>
+    <string name="tip_input_corret_device_num">请输入正确的设备号</string>
+    <string name="tip_active_success">激活成功！</string>
+    <string name="tip_active_success_info">您已获得免费流量，请在“首页”中查看具体信息</string>
+
+    <string name="tip_start_now">开始使用</string>
+
+
+
+
+
+    <string name="tip_translator_package_introduce">翻译流量是指仅供本设备在有效国家范围内支持本设备翻译的流量。</string>
+
+    <string name="tip_wxpay_success">支付成功</string>
+    <string name="tip_wxpay_cancel">取消支付</string>
+    <string name="tip_wxpay_denied">支付被拒绝</string>
+    <string name="tip_wxpay_failed">支付失败</string>
+    <string name="tip_wxpay_unsupport">不支持支付</string>
+
+    <string name="tip_start_date">开始时间：</string>
+    <string name="tip_select_start_date">选择开始时间</string>
+    <string name="title_year">年</string>
+    <string name="title_month">月</string>
+    <string name="title_day">日</string>
+    <string name="tip_connect_unbind">连接/解绑</string>
+    <string name="tip_device_operation_title">设备操作选项</string>
+
+
+    <string name="tip_device_info_menu">解绑</string>
+    <string name="tip_device_list_menu">编辑</string>
+    <string name="tip_device_list_menu2">返回</string>
+    <string name="tip_unbind_the_device">你确认要解绑该设备吗？</string>
+
+    <string name="commit_button">确定</string>
+    <string name="cancel_button">取消</string>
+    <string name="default_button">恢复默认</string>
+    <string name="connect_wifi_button">去连接设备wifi</string>
+    <string name="toast_back_exit">再按一次退出</string>
+
+    <string name="button_purchase">立刻购买</string>
+    <string name="button_connect">连接</string>
+    <string name="button_commit">确认</string>
+    <string name="button_install">安装</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_no_update">暂不升级</string>
+    <string name="button_forget">忘记</string>
+    <string name="button_update">立即升级</string>
+    <string name="button_disconnect">断开</string>
+    <string name="button_close">关闭</string>
+
+    <string name="device_ssid">设备SSID：</string>
+    <string name="device_wifi_password">Wifi密码：</string>
+    <string name="device_translate_language">翻译语种：</string>
+    <string name="device_state_of_charge">剩余电量：</string>
+    <string name="device_connect_count">设备连接数：</string>
+    <string name="device_signal_strength">信号强度：</string>
+    <string name="device_app_version">设备版本：</string>
+    <string name="device_flow_package">流量信息</string>
+    <string name="device_flow_package_name">套餐名称</string>
+    <string name="device_daily_flow">每日流量</string>
+    <string name="device_today_used_flow">今日使用流量</string>
+    <string name="device_3_hours_used_flow">3小时使用流量</string>
+    <string name="device_flow_package_starttime">开始时间</string>
+    <string name="device_flow_package_endtime">结束时间</string>
+    <string name="device_flow_left">剩余流量</string>
+    <string name="device_flow_total_count">总流量</string>
+    <string name="device_flow_countries">使用国家</string>
+
+    <string name="title_flow_mall">流量商城</string>
+    <string name="title_device_setting">设置</string>
+    <string name="title_modify_hotspot_password">修改热点密码</string>
+    <string name="title_set_device_lang">设置设备语言</string>
+    <string name="title_close_device_hotspot">多语言</string>
+    <string name="title_set_apn">设置APN</string>
+    <string name="title_set_blacklist">设置热点访问黑名单</string>
+    <string name="title_save_flow">省流量模式</string>
+    <string name="title_set_production">还原</string>
+    <string name="title_product">产品</string>
+    <string name="title_instruction">说明书</string>
+
+
+    //开 关
+    <string name="title_saveflow_open">开</string>
+    <string name="title_saveflow_close">关</string>
+
+    <string name="title_set_defaultPassWord">恢复设备默认热点密码</string>
+    <string name="title_restore_setting">还原出厂设置</string>
+    <string name="tile_restore_tip">还原包括恢复设备SSID,设备热点密码，省流量模式</string>
+    <string name="tile_restore_pwtip">需要恢复设备默认WiFi密码吗?</string>
+
+    <string name="title_connect_wifi">连接Wifi</string>
+    <string name="title_other_wifi">其他WiFi</string>
+    <string name="title_set_translate_langugage">设置翻译语言</string>
+    <string name="title_set_tip_langugage">设置提示语言</string>
+    <string name="title_flow_orders">历史流量订单</string>
+    <string name="title_detection_device">检测设备</string>
+    <string name="title_basic_setting">基本设置</string>
+    <string name="title_advanced_setting">高级设置</string>
+    <string name="title_device_self_detection">设备自检</string>
+    <string name="title_software_version">软件版本检测</string>
+    <string name="title_device_connect_wifi">连接Wifi</string>
+    <string name="title_select_wifi">选取附近的wifi</string>
+    <string name="title_saved_wifi">已保存的Wifi</string>
+    <string name="title_otherwifi">其他WiFi</string>
+    <string name="title_chinese">中文 </string>
+    <string name="title_english">英文 </string>
+    <string name="title_japanese">日文 </string>
+    <string name="title_set_lange">设置语言 </string>
+    <string name="title_english1">英语</string>
+    <string name="title_japanese1">日语</string>
+
+
+    <string name="title_manual_wifi">手动输入ssid连接</string>
+    <string name="title_tip_nameempty">热点名不能为空</string>
+    <string name="title_tip_passwordempty">密码不能为空</string>
+    <string name="title_manual_wifiname">输入热点名称</string>
+    <string name="title_manual_wifipassword">输入热点密码</string>
+    <string name="title_manual_join">加入</string>
+
+    <string name="title_open_tip">省流量模式能够在使用设备热点上网时节省流量,同时防止部分应用后台偷跑流量,如果需要关闭请在操作之后重启设备</string>
+    <string name="title_current_connected_wifi">当前连接的Wifi</string>
+    <string name="title_set_translate_language">设置翻译语言</string>
+    <string name="title_about">关于我们</string>
+    <string name="title_device_orders">设备流量订单</string>
+    <string name="title_scan">扫描</string>
+
+    <string name="system_webview_error">同步失败，请稍候再试</string>
+
+    <string name="error_set_device">设备设置异常</string>
+    <string name="error_check_old_password">旧密码验证失败</string>
+    <string name="error_set_new_password">密码至少8个字符，且为数字和字母</string>
+    <string name="error_set_new_password2">密码至少8个字符</string>
+    <string name="error_close_device_hotspot">关闭设备热点失败</string>
+    <string name="error_set_blacklist">黑名单列表不能为空</string>
+    <string name="error_apn_name">apn name必须填写</string>
+    <string name="error_apn">apn必须填写</string>
+    <string name="error_apn_mcc">mcc必须填写</string>
+    <string name="error_apn_mnc">mnc必须填写</string>
+    <string name="error_apn_numermic">NUMERMIC必须填写</string>
+    <string name="error_open_bluetooth">打开蓝牙失败</string>
+    <string name="error_cannot_connect_device_from_bluetooth">无法通过蓝牙连接设备。\n你可以扫描设备的二维码或重启设备。</string>
+    <string name="error_cannot_connect_device_from_bluetooth2">无法连接设备。</string>
+    <string name="error_mobile_phone_not_support_bluetooth">你的手机不支持蓝牙</string>
+    <string name="error_no_device_connect">已断开与设备的连接，请连接到设备热点。</string>
+    <string name="error_version_low">当前版本过低,请更新设备版本</string>
+    <string name="error_network_is_not_available">当前网络不可用，请确保手机能上网</string>
+
+    <string name="warning_close_device_hotspot">是否关闭设备热点</string>
+    <string name="warning_input_start_date">请输入开始时间</string>
+
+    <string name="status_wifi_connected">已连接</string>
+    <string name="status_wifi_saved">已保存</string>
+    <string name="status_wifi_searched">附近存在的</string>
+    <string name="title_setting_name">百度WiFi共享翻译机</string>
+
+    <string name="title_credit_card">信用卡</string>
+
+    <string name="title_card_category">(支持维萨、万事达、美国运通)</string>
+    <string name="tip_connect_wifi">请连接到设备的WiFi</string>
+
+
+
+    <string name="products_introduce">GTW的旗舰产品GT1是一款基于名为“云通信”的“革命性”高科技技术的便携式智能跨境互联网应用设备。当GT1的用户抵达其他国家，他们无需购买额外的SIM卡来支持该设备联网。手机、电脑等设备可以轻松连接到GT1并接入互联网。用户可以通过名为“GTW”的应用程序来管理设备并购买所需的数据流量。</string>
+    <string name="device_introduce">香港捷智科技有限公司（HK GTWireless Limited，以下简称GTW）是一家在香港注册主攻云端网络技术的高科技公司，致力于为跨境商务旅行者和游客提供更好更划算的网络服务。目前，GTW已经与全球120多个国家和地区的知名电信运营商展开合作，为全球用户提供无漫游费用的全球数据流量。</string>
+    <string name="device_openwifi_tip">启动WiFi连接会关闭掉WiFi热点,是否开启？</string>
+    <string name="title_trasn_order">翻译订单</string>
+    <string name="title_select_time">请选择时间</string>
+    <string name="title_select">选择</string>
+    <string name="title_error1">系统异常</string>
+    <string name="title_error2">不支持该币种</string>
+    <string name="title_error3">产品不存在</string>
+    <string name="title_error4">订单已申请，等待付款</string>
+    <string name="title_error5">支付渠道不支持</string>
+    <string name="title_credit">信用卡支付</string>
+    <string name="title_paypal">PayPal支付</string>
+    <string name="title_suggestions">意见反馈</string>
+
+    <string name= "title_jp">日语</string>
+    <string name= "title_fr">法语</string>
+    <string name= "title_ge">德语</string>
+    <string name= "title_sp">西班牙语</string>
+    <string name= "title_ko">韩语</string>
+
+    <array name="translate_language">
+        <item>中↔英</item>
+        <item>中↔日</item>
+        <item>中↔韩</item>
+        <item>中↔俄</item>
+        <item>中↔法</item>
+        <item>中↔泰</item>
+        <item>中↔西</item>
+
+    </array>
+    <array name="translate_language2">
+        <item>中文-0</item>
+        <item>日语-10</item>
+    </array>
+    <array name="translate_language1">
+        <item>英语-0</item>
+        <item>日语-1</item>
+        <item>韩语-2</item>
+        <item>俄语-3
+        </item>
+        <item>法语-4
+        </item>
+        <item>泰语-5
+        </item>
+        <item>西班牙语-6</item>
+        <item>德语-7</item>
+        <item>阿拉伯语-9</item>
+
+    </array>
+    <array name="tip_language">
+        <item>中文(简体)</item>
+        <item>English</item>
+        <item>Japanese</item>
+    </array>
+
+</resources>

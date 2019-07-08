@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/gtwlaunch"
+    android:orientation="horizontal"
+    >
+
+
+    <!--<View-->
+        <!--android:id="@+id/anchor"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_centerInParent="true" />-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="120dp"-->
+        <!--android:layout_marginTop="80dp"-->
+        <!--android:scaleType="centerInside"-->
+        <!--android:src="@mipmap/ic_welcome" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_gravity="bottom|center_horizontal"-->
+        <!--android:layout_marginBottom="60dp"-->
+        <!--android:orientation="horizontal">-->
+        <!--<ImageView-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:scaleType="centerInside"-->
+            <!--android:background="@drawable/view_with_radius_corner"-->
+            <!--android:src="@mipmap/ic_icon" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:textColor="#0C74BD"-->
+            <!--android:text="@string/app_name"/>-->
+    <!--</LinearLayout>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="10sp"-->
+        <!--android:layout_marginBottom="5dp"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:textColor="#888888"-->
+        <!--android:text="深圳市途鸽信息有限公司版权所有 ©2018"-->
+        <!--android:gravity="center"/>-->
+
+
+    <!--<ProgressBar-->
+        <!--android:id="@+id/pb_progress"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:indeterminateDrawable="@drawable/circle_progress_bar"-->
+        <!--android:visibility="gone"/>-->
+
+
+</FrameLayout>

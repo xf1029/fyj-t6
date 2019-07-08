@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="@null"
+        >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:background="@null"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_scan"
+            android:layout_width="40dp"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/tip_device_list_menu2"
+            android:textColor="#FFFFFF"
+            android:background="@null"
+            android:textSize="12sp"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_device_connect"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/whiteBackground"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:padding="8dp"
+            android:src="@mipmap/ic_setting_modify_password" />
+
+        <TextView
+            android:id="@+id/tv_device_ssid"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="5"
+            android:gravity="left|center_vertical"
+            android:text=""
+            android:textColor="@color/textColorBlack1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/tip_connect2"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/textColorBlack1"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/ic_arrow_right" />
+    </LinearLayout>
+
+    <!--<com.a51tgt.t4m.ui.view.DropZoomScrollView-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_device_connecting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/view_with_radius_corner"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ProgressBar
+                        android:id="@+id/pb_progress"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:indeterminateDrawable="@drawable/circle_progress_bar" />
+
+                    <TextView
+                        android:id="@+id/tv_connect_tip"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@color/textColorBlack1"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/bt_scan"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/buttonBackground1"
+                    android:textColor="@color/white"
+                    android:text="@string/tip_for_new_scan_connected"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_device_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/view_with_radius_corner"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="20dp"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/device_ssid"
+                        android:textColor="@color/textColorBlack1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_ssid"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="5"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@color/textColorBlack1"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_modify_ssid"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:padding="4dp"
+                        android:src="@mipmap/ic_conditions"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="20dp"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/device_wifi_password"
+                        android:textColor="@color/textColorBlack1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_password"
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="5"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@color/textColorBlack1"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_modify_password"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:padding="4dp"
+                        android:src="@mipmap/ic_conditions"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="20dp"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/device_translate_language"
+                        android:textColor="@color/textColorBlack1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_language"
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="5"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@color/textColorBlack1"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_modify_transalte_language"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:padding="4dp"
+                        android:src="@mipmap/ic_conditions" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="20dp"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/device_state_of_charge"
+                        android:textColor="@color/textColorBlack1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_state_of_charge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@color/textColorBlack1"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="20dp"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/device_connect_count"
+                        android:textColor="@color/textColorBlack1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_connect_device"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@color/textColorBlack1"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="20dp"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/device_signal_strength"
+                        android:textColor="@color/textColorBlack1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/iv_signal"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="15dp"
+                        android:src="@mipmap/wifi_signal_1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="20dp"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/device_app_version"
+                        android:textColor="@color/textColorBlack1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_app_version"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@color/textColorBlack1"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_package_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/view_with_radius_corner"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bt_flowmall"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="40dp"
+                android:background="#734f98"
+
+                android:textColor="@color/white"
+                android:text="@string/tip_get_flow_package"
+                android:textSize="14sp"
+                android:visibility="visible"/>
+
+        </LinearLayout>
+    </ScrollView>
+    <!--</com.a51tgt.t4m.ui.view.DropZoomScrollView>-->
+
+
+</LinearLayout>

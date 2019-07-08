@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_marginTop="5dp"
+    android:background="@color/white"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:padding="8dp"
+        android:src="@mipmap/ic_setting_modify_password" />
+
+    <TextView
+        android:id="@+id/tv_device_ssid"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="5"
+        android:gravity="left|center_vertical"
+        android:text="TGT1234551"
+        android:textColor="@color/textColorBlack1"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="left|center_vertical"
+        android:text="@string/tip_connect2"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/textColorBlack1"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:src="@mipmap/ic_arrow_right" />
+
+</LinearLayout>

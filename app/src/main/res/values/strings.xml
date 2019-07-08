@@ -1,0 +1,271 @@
+<resources>
+    <string name="app_name">GTW</string>
+    <string name="tab_home">Main page</string>
+    <string name="tab_mall">Store</string>
+    <string name="tab_setting">Setting</string>
+    <string name="title_activity_home">@string/app_name</string>
+    <string name="select_wifi">Select Network</string>
+    <string name="about">TGT limited\nCopyright ©2014-2017</string>
+
+    <string name="tip_paying"></string>
+
+    <string name="tip_welcome">Welcome to GTW</string>
+    <string name="btn_scan">Scan QR code to add device</string>
+    <string name="btn_mannual">Add device manually</string>
+    <string name="tip_connect_unbind">Connect/Unbind</string>
+    <string name="tip_device_operation_title">Device operate setting</string>
+
+
+    <string name="tip_title">Message</string>
+    <string name="tip_input_password">Please enter password</string>
+    <string name="tip_purchase_flow_package">Purchase Data package</string>
+    <string name="tip_input_old_password">Old Password：</string>
+    <string name="tip_input_new_password">New Password：</string>
+    <string name="tip_input_old_password_hint">Enter Old Password</string>
+    <string name="tip_input_new_password_hint">Enter New Password</string>
+    <string name="tip_close_device_hotspot">Are you sure to switch off hotspot？</string>
+    <string name="tip_apn">Apn</string>
+
+    <string name="tip_apn_name">Name</string>
+    <string name="tip_apn_mcc">MCC</string>
+    <string name="tip_apn_mnc">MNC</string>
+    <string name="tip_apn_type">Type</string>
+    <string name="tip_apn_user">User Name</string>
+    <string name="tip_apn_password">Password</string>
+    <string name="tip_apn_port">Port</string>
+    <string name="tip_apn_proxy">Proxy</string>
+    <string name="tip_apn_mmsc">MMSC</string>
+    <string name="tip_not_connected">Cannot connect to device</string>
+
+    <string name="tip_not_connecting">No connection</string>
+    <string name="tip_for_open_scan_connected">Cannot connect to device, please scan device QR code </string>
+    <string name="tip_for_new_scan_connected">Please scan device QR code to connect device</string>
+    <string name="tip_for_new_scan_connected2">Additional device, please scan QR code of device</string>
+    <string name="tip_scan">Place the QR code in the frame to scan </string>
+    <string name="tip_password_empty">Password cannot be empty</string>
+    <string name="tip_password_at_least_8">At least eight digits for the password</string>
+    <string name="tip_input">Enger</string>
+    <string name="tip_input_corret_device_num">Please input the correct device number</string>
+
+    <string name="tip_password">Password</string>
+    <string name="tip_operation_success">Successful</string>
+    <string name="tip_operation_failed">Failed</string>
+    <string name="tip_match_bluetooth">After device matched bluetooth, then connect the device</string>
+    <string name="tip_can_not_internet">Network not available, please make sure your cellphone is connected to internet</string>
+    <string name="tip_bluetooth_open">Cellphone bluetooth is on</string>
+    <string name="tip_enter">Enter APP</string>
+    <string name="tip_apn_plmn">PLMN</string>
+    <string name="cannot_find_device">Can not find device, please connect the network of the device.(if can not find, please open the wifi)</string>
+    <string name="tip_input_device_num">Please input the device code</string>
+
+    <string name="tip_scaning">Scanning...</string>
+    <string name="tip_disconnected">Disconnected</string>
+    <string name="tip_get_ip_address">Receiving IP...</string>
+    <string name="tip_authenticating">Authenticating...</string>
+    <string name="tip_get_flow_package">Purchase Data package</string>
+    <string name="tip_connected_to">Connected</string>
+    <string name="tip_connecting">Connecting device...</string>
+    <string name="tip_connect">Connecting</string>
+    <string name="tip_connect2">Connect</string>
+    <string name="tip_in_using">In Use</string>
+    <string name="tip_payment">Payment</string>
+    <string name="tip_device_ssid">Device SSID:</string>
+    <string name="tip_can_not_find_device_mac_address">Cannot receive device bluetooth address</string>
+    //Wechat not installed未安装微信
+    <string name="tip_unistall_wetchat">Wechat not installed</string>
+    <string name="tip_current_version_info">Version:</string>
+    <string name="tip_newest_version_check">Checking new version...</string>
+    <string name="tip_no_new_version">Version up-to-date</string>
+    <string name="tip_download_error">Download Failed!</string>
+    <string name="tip_download_apk">Downloading...</string>
+    <string name="tip_select_file">Please select file</string>
+    <string name="tip_can_not_find_file">Cannot find file to upgrade </string>
+    <string name="tip_can_not_get_device_info">Cannot receive device info</string>
+    <string name="tip_pay_success">Payment successful</string>
+    <string name="tip_pay_failed">Payment failed</string>
+    <string name ="tip_active_header">Activate the device</string>
+    <string name ="tip_active_not">No activation</string>
+    <string name ="tip_active_now">Confirm the activation</string>
+    <string name="tip_start_now">Start</string>
+    <string name="tip_active_success">Active successfully</string>
+    <string name="tip_active_success_info">You have received free data package, please click “Main Page” for details</string>
+
+
+    <string name="tip_for_active_device">to get free 2G of Global Data valid for 90 days, effective immediately. Is the device activated now?</string>
+    <string name="tip_for_active_device_error">Cannot activate device</string>
+    <string name="tip_can_not_find_the_device">Cannot detect device info,Please try again.</string>
+
+    <string name="tip_translator_package_introduce">The data usage of translation is the data transfer in the active area for the device. </string>
+
+    <string name="tip_wxpay_success">Payment successful</string>
+    <string name="tip_wxpay_cancel">Payment cancelled</string>
+    <string name="tip_wxpay_denied">Payment unsuccessful</string>
+    <string name="tip_wxpay_failed">Payment failed</string>
+    <string name="tip_wxpay_unsupport">Payment un-support</string>
+
+    <string name="tip_start_date">Start Date：</string>
+    <string name="tip_select_start_date">Select date to start</string>
+
+    <string name="tip_device_info_menu">Unbind</string>
+    <string name="tip_device_list_menu">Edit</string>
+    <string name="tip_device_list_menu2">Back</string>
+    <string name="tip_unbind_the_device">Are you sure to unbind the device?</string>
+
+    <string name="commit_button">Yes</string>
+    <string name="cancel_button">No</string>
+    <string name="default_button"> default</string>
+    <string name="connect_wifi_button">Connect device wifi</string>
+    <string name="toast_back_exit">Press again to go back</string>
+
+    <string name="button_purchase">Purchase</string>
+    <string name="button_connect">Connect</string>
+    <string name="button_commit">OK</string>
+    <string name="button_install">Install</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_no_update">Not to upgrade</string>
+    <string name="button_forget">Clear input history</string>
+    <string name="button_update">Check update</string>
+    <string name="button_disconnect">Disconnect</string>
+    <string name="button_close">Close</string>
+
+    <string name="device_ssid">Device SSID：</string>
+    <string name="device_wifi_password">Wifi Password：</string>
+    <string name="device_translate_language">Translate language：</string>
+    <string name="device_state_of_charge">Power：</string>
+    <string name="device_connect_count">Number of device connected：</string>
+    <string name="device_signal_strength">Reception：</string>
+    <string name="device_app_version">App version：</string>
+    <string name="device_flow_package">Data transfer message</string>
+    <string name="device_flow_package_name">Data package</string>
+    <string name="device_daily_flow">Daily usage available</string>
+    <string name="device_today_used_flow">Data usage of today</string>
+    <string name="device_3_hours_used_flow">Data transfer in three hours</string>
+    <string name="device_flow_package_starttime">Start Date</string>
+    <string name="device_flow_package_endtime">End Date </string>
+    <string name="device_flow_left">Available Data</string>
+    <string name="device_flow_total_count">Total</string>
+    <string name="device_flow_countries">Coverage</string>
+
+    <string name="title_flow_mall">Data usage store</string>
+    <string name="title_device_setting">Setting</string>
+    <string name="title_modify_hotspot_password">Password</string>
+    <string name="title_set_device_lang">Set device language</string>
+    <string name="title_close_device_hotspot">Language</string>
+    <string name="title_set_apn">Set APN</string>
+    <string name="title_set_blacklist">Set hotspot blacklist</string>
+    <string name="title_save_flow">Data Saver Mode</string>
+    <string name="title_set_production">Reset</string>
+    <string name="title_product">Products</string>
+    <string name="title_instruction">Instruction</string>
+
+    //Switch
+    <string name="title_saveflow_open">On</string>
+    <string name="title_saveflow_close">Off</string>
+
+    <string name="title_set_defaultPassWord">reset device to default hotspot password</string>
+    <string name="title_restore_setting">Reset All Settings</string>
+    <string name="tile_restore_tip">If you click ‘OK’, data saver mode will be switch-on and device password will revert to the original one.</string>
+    <string name="tile_restore_pwtip">Would you like to restore device WiFi password back to default?</string>
+
+    <string name="title_connect_wifi"> Connect Wifi</string>
+    <string name="title_other_wifi">Other WiFi</string>
+    <string name="title_set_translate_langugage">Set translate language</string>
+    <string name="title_set_tip_langugage">Set device language</string>
+    <string name="title_flow_orders">Purchase History</string>
+    <string name="title_detection_device">Detect device</string>
+    <string name="title_basic_setting">Basic Setting</string>
+    <string name="title_advanced_setting">Advance Setting</string>
+    <string name="title_device_self_detection">Auto Setting</string>
+    <string name="title_software_version">Software version Check</string>
+    <string name="title_device_connect_wifi">Connect WiFi</string>
+    <string name="title_select_wifi">Select WiFi</string>
+    <string name="title_saved_wifi">WiFi History Saved</string>
+    <string name="title_otherwifi">Other WiFi</string>
+    <string name="title_chinese">Chinese</string>
+    <string name="title_english">English</string>
+    <string name="title_japanese">Japanese</string>
+    <string name="title_set_lange">Language Setting</string>
+
+
+    <string name="title_manual_wifi">Manual enter ssid to connect</string>
+    <string name="title_tip_nameempty">Name of hotspot cannot be empty</string>
+    <string name="title_tip_passwordempty">Password cannot be empty</string>
+    <string name="title_manual_wifiname">Enter hotspot name</string>
+    <string name="title_manual_wifipassword">Enter hotspot password</string>
+    <string name="title_manual_join">ADD</string>
+
+    <string name="title_open_tip">Data Saver Mode may reduce date usage. After switching off/on Data Saver Mode, you need to restart the device..  You may switch off after restarting the device. </string>
+    <string name="title_current_connected_wifi">The current Wifi connected</string>
+    <string name="title_set_translate_language">Set translate language</string>
+    <string name="title_about">About us</string>
+    <string name="title_device_orders">Device package purchased</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_trasn_order">Translate order</string>
+
+    <string name="system_webview_error">Synchronization fails, please try again later.</string>
+
+    <string name="error_set_device">Device setting
+error</string>
+    <string name="error_check_old_password">Old password authentication fails</string>
+    <string name="error_set_new_password">At least eight characters, including numbers and letters</string>
+    <string name="error_set_new_password2">At least eight characters for password</string>
+    <string name="error_close_device_hotspot">Fail to switch off hotspot</string>
+    <string name="error_set_blacklist">Blacklist cannot be blank</string>
+    <string name="error_apn_name">apn name must fill in</string>
+    <string name="error_apn">apn must fill in</string>
+    <string name="error_apn_mcc">mcc must fill in</string>
+    <string name="error_apn_mnc">mnc must fill in</string>
+    <string name="error_apn_numermic">NUMERMIC must fill in</string>
+    <string name="error_open_bluetooth">Fail to switch on bluetooth</string>
+    <string name="error_cannot_connect_device_from_bluetooth">cannot connect device via bluetooth. \n You can scan the QR-code or restart the device.</string>
+    <string name="error_cannot_connect_device_from_bluetooth2">Cannot connect device</string>
+    <string name="error_mobile_phone_not_support_bluetooth">Your mobile phone does not support bluetooth function</string>
+    <string name="error_no_device_connect">Disconnected with the device,please connect device WiFi and connect device.</string>
+    <string name="error_version_low"> Current version is not up-to-date, please upgrade the version</string>
+    <string name="error_network_is_not_available">Network is not available, please make sure your device is connected to the internet.</string>
+
+    <string name="warning_close_device_hotspot">Would you like to turn off hotspot function</string>
+    <string name="warning_input_start_date">Please input starting date</string>
+    <string name="tip_connect_wifi">Please connect device WiFi</string>
+
+
+    <string name= "title_jp">Japanese</string>
+    <string name= "title_fr">French</string>
+    <string name= "title_ge">German</string>
+    <string name= "title_sp">Spanish</string>
+    <string name= "title_ko">Korean</string>
+
+    <string name="status_wifi_connected">Connected</string>
+    <string name="status_wifi_saved">Saved</string>
+    <string name="status_wifi_searched">Search nearby </string>
+    <string name="title_select_time">Set date</string>
+    <string name="title_select">Set</string>
+    <string name="title_year">year</string>
+    <string name="title_month">month</string>
+    <string name="title_day">day</string>
+    <string name="title_credit_card">Credit Card</string>
+    <string name="title_card_category">(Accept Visa, Mastercard and American Express payments)</string>
+    <string name="products_introduce">GT1, GTW’s the flagship product, is a portable smart device for cross-border internet usage, based on a “revolutionary” high technology called Cloud SIM. No SIM card needs to be inserted when the GT1 user lands in another country. Mobile phone, computer and other devices can easily connect to GT1 to have access to the Internet. Users can manage GT1 and purchase global data package or regional data package through GTW’s App.</string>
+
+    <string name="device_introduce">HK GTWireless Limited (GTW) is a high-tech company registered in Hong Kong, specializing in could network technology and committing ourselves to providing better method and environment for cross-border business travellers and tourists to get on the Internet with lower cost. Currently, GTW has established cooperative relationship with different well-known telecom carriers in 120 countries and regions around the world to provide worldwide users with roaming-free global data.
+
+
+</string>
+    <array name="translate_language">
+        <item>Chinese-->English</item>
+        <item>English-->Chinese</item>
+        <item>Chinese-->Japanese</item>
+        <item>Japanese-->Chinese</item>
+    </array>
+
+    <array name="tip_language">
+        <item>中文(简体)</item>
+        <item>English</item>
+        <item>Japanese</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_card">CardActivity</string>
+
+</resources>

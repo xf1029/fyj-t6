@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.a51tgt.t4m.ui.view.OtherWiFiActivity">
+    <RelativeLayout
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#734f98">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="0dp"
+            android:padding="12dp"
+            android:src="@mipmap/ic_arrow_back_white"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:text="@string/title_other_wifi"/>
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/title_manual_wifiname"
+
+        />
+    <EditText
+        android:id="@+id/tv_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/title_manual_wifipassword"
+
+        />
+    <Button
+        android:id="@+id/btn_joinWifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#734f98"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/title_manual_join"
+        android:textColor="@color/white"
+        android:layout_marginRight="10dp"
+        />
+
+
+
+</LinearLayout>

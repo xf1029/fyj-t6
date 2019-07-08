@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#734f98">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="0dp"
+            android:padding="12dp"
+            android:src="@mipmap/ic_arrow_back_white"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:text="@string/title_set_production"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/anchor2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"/>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="vertical"-->
+
+        <!--android:paddingTop="10dp"-->
+        <!--&gt;-->
+
+        <!--<Button-->
+            <!--android:id="@+id/setDefaultPwd"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="left"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:background="@color/white"-->
+            <!--android:text="@string/title_set_defaultPassWord" />-->
+    <!--</LinearLayout>-->
+
+
+        <Button
+            android:id="@+id/reduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:paddingTop="30dp"
+            android:background="@color/white"
+            android:text="@string/title_restore_setting" />
+
+
+    <!--</LinearLayout>-->
+
+
+
+</LinearLayout>
